@@ -10,4 +10,4 @@ RUN apt-get update && apt-get install -y git vim net-tools build-essential googl
 
 WORKDIR /code
 
-ENV PYTHONPATH=/code/src
+ENV PYTHONPATH=/code/
